@@ -1,0 +1,157 @@
+  /* Rectangle 12 */
+
+.row{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 826px;
+    height: 826px;
+    left: 250px;
+    top: 30px;
+
+    background: #545454;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    margin-bottom:55px;
+    }
+    /*Width
+    673px
+    Height
+    621px
+    Top
+    489px
+    Left
+    413px
+    Radius
+    30px
+    #000000
+    #383B3E
+    2px
+    Inner border
+    #000000*/
+    /* Rectangle 13 */
+
+.rec-2{
+   /* Rectangle 13 */
+
+
+   box-sizing: border-box;
+
+  /* position: absolute;*/
+   width: 673px;
+   height: 621px;/*
+   left: 413px;
+   top: 489px;*/
+
+   background-color: #383B3E;
+   border: 2px solid #000000;
+   border-radius: 30px;
+   color: #ffffff;
+   margin-left: 75px;
+   margin-top: 100px;
+}
+/* Bordered form */
+form {
+  /*border: 3px solid #f1f1f1;*/
+  margin-top: 109px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #2B2C36;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #383B3E;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 70px;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+/*@media (max-width:1790px)
+{
+  container{
+    margin-left: -20px;
+    margin-right:500px;
+     width: 673px;
+
+
+  }
+ }*/
+ @media screen and (max-width:590px)
+ {
+
+  .rec-2{
+     /*margin-left: -95px;
+     margin-right:130px;*/
+      width: 200px;
+
+
+   }
+
+   .row{
+       box-sizing: border-box;
+
+       position: relative;
+       width: 300px;
+
+       left: 0px;
+       top: 30px;
+
+
+       }
+  }

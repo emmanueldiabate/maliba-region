@@ -1,0 +1,198 @@
+/* * */
+/* {box-sizing: border-box} */
+/* body {font-family: Arial, Helvetica, sans-serif;} */
+/* body, html { */
+    /* height: 100%; */
+  /* } */
+/*  */
+  /* * { */
+    /* box-sizing: border-box; */
+  /* } */
+/*  */
+  /* .bg-image { */
+    /* The image used
+    background-image: url("/src/assets/images/fond-image1.png");*/
+
+    /* Add the blur effect */
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+
+    /* Full height */
+    /* height: 100%; */
+
+    /* Center and scale the image nicely */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+  /* } */
+
+   /* @media (max-width:1200px){ */
+    /* .logo{ */
+      /* width:  200px; */
+    /* } */
+    /* } */
+
+  /* Position text in the middle of the page/image */
+  /* .bg-text { */
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(0,0,0, 0.4); Black w/opacity/see-through */
+    /* color: wheat !important; */
+    /* font-weight: bold; */
+    /* border: 3px solid #f1f1f1; */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* z-index: 2; */
+    /* width: 80%; */
+    /* padding: 20px; */
+    /* text-align: center; */
+  /* } */
+/*
+.navbar {
+  width: 100%;
+  background-color: whitesmoke;
+  overflow: auto;
+  stroke: inside 2px black;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: wheat;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #545454;
+}
+.navbar a img:hover {
+  background-color: red;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+} */
+
+.navbar{
+  border: 1px solid black;
+  box-shadow: 1px 0px 2px black;
+}
+.nav-item{
+  width: 200px;
+  border-radius: 15px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+}
+i{
+  color: #00327C;
+}
+.nav-link{
+  font-weight: bold;
+  color: black;
+}
+.container {
+  /* position: relative; */
+  /* max-width: 100%; */
+  /* margin: 0 auto;  */
+background-color: inherit ;
+  height: inherit;
+}
+
+.content{
+  background-color: inherit;
+  color: white;
+  margin: 0px;
+  font-weight: bold;
+}
+
+  /* position: absolute;  */
+  /* bottom: 0;  */
+  /* background: rgb(0, 0, 0);  */
+  /* background: rgba(0, 0, 0, 0.5);  */
+  /* color: #f1f1f1;  */
+  /* width: 1236px; */
+  /*padding: -10px;
+  margin-bottom: 43.8%;
+  margin-left: 1px;*/
+P{
+  margin-left: -30px;
+}
+
+
+
+.pays{
+  font-weight: bold;
+  margin: 0px;
+  padding: 15px;
+  box-shadow: 10px;
+}
+@media (max-width:14720px)
+{
+P{
+  margin-left: 0px;
+  margin-right: 200px;
+}
+}
+@media (max-width:14720px)
+{
+  pays{
+    margin-left: -20px;
+
+  }
+ }
+.card{
+  padding: 1.5em .5em .5em;
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  width: 20vw;
+  height: 20vw;
+  margin-left: 25px;
+  margin-bottom: 300px;
+}
+.card-title{
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.card-text{
+  width: 250px;
+}
+.image{
+  width: 20vw;
+}
+.region{
+  margin-right:210px;
+  margin-left:-210px;
+ /* width:120px;*/
+}
+@media screen and(min-width:280px)
+{
+.region{
+  margin-left: 280px;
+  margin-right: 180px;
+  height:90px;
+}
+}
+/*
+@media (max-width:14720px)
+{
+  pays{
+    margin-left: -20px;
+
+  }
+ }
+*/

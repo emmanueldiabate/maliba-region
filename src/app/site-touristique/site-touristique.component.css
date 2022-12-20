@@ -1,0 +1,63 @@
+.card{
+   /* padding: 1.5em .5em .5em;*/
+    border-radius-bottom: 58em important;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    margin-top:-20px;
+}
+.card-img-top{
+  height:  220px;
+}
+.card-img-top{
+  height:  220px;
+}
+.card2{
+   /* padding: 1.5em .5em .5em;*/
+    border-radius-bottom: 58em important;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    color:#FFFFFF;
+}
+.position2{
+  margin-left: 20px;
+  margin-right:20px;
+}
+h4{
+  color: white;
+   margin-top: 30px;
+   font-weight: bold;
+   margin-left: 0px;
+
+}
+
+.row{
+  margin-left:auto;
+  margin-right:auto;
+  /*margin-right:20px;*/
+}
+
+.pays{
+  font-weight: bold;
+  margin: 0px;
+  padding: 15px;
+  box-shadow: 10px;
+  margin-left:-23px;
+  margin-right:125px;
+ /* margin-top:65px;*/
+}
+@media screen and (min-width:320px)
+{
+/*P{
+  margin-left: 0px;
+  margin-right: 200px;
+}*/
+}
+@media screen and  (max-width:767px)
+{
+  .pays{
+    font-size:20px;
+}
+ }
+.pays{
+margin-left:auto;
+margin-right:auto;}

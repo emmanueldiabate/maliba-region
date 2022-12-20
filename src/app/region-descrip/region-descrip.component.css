@@ -1,0 +1,47 @@
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  margin-top:129px;
+  margin-left:18px;
+}
+
+/* Bottom right text */
+.text-block {
+ /* position: absolute;*/
+  margin-bottom: 20px;
+  margin-right: 5.5px;
+  /*background-color: black;*/
+  color: white;
+  margin-top:290px;
+  font-size:bold;
+  /*padding-left: 20px;
+  padding-right: 20px;*/
+}
+/*.text-block{
+
+}*/
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+.row{
+  color:white;
+  margin-top:70px;
+  margin-left:105px;
+  margin-right: -5px;
+
+}
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+.pays{
+margin-left:auto !important;
+margin-right:auto !important;
+color:black;
+}
